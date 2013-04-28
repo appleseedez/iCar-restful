@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1815AF4E172CF726009EE3E3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1815AF4D172CF726009EE3E3 /* icon.png */; };
+		188F3BB3172CC88F00007BA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188F3BB2172CC88F00007BA2 /* UIKit.framework */; };
+		188F3BB7172CC88F00007BA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188F3BB6172CC88F00007BA2 /* CoreGraphics.framework */; };
+		188F3BBD172CC88F00007BA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 188F3BBB172CC88F00007BA2 /* InfoPlist.strings */; };
+		188F3BBF172CC88F00007BA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F3BBE172CC88F00007BA2 /* main.m */; };
+		188F3BC3172CC88F00007BA2 /* CRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F3BC2172CC88F00007BA2 /* CRAppDelegate.m */; };
+		188F3BC5172CC88F00007BA2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 188F3BC4172CC88F00007BA2 /* Default.png */; };
+		188F3BC7172CC88F00007BA2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 188F3BC6172CC88F00007BA2 /* Default@2x.png */; };
+		188F3BC9172CC88F00007BA2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 188F3BC8172CC88F00007BA2 /* Default-568h@2x.png */; };
+		188F3BCC172CC88F00007BA2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188F3BCA172CC88F00007BA2 /* MainStoryboard.storyboard */; };
+		188F3BCF172CC88F00007BA2 /* CRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F3BCE172CC88F00007BA2 /* CRViewController.m */; };
+		188F3BD7172CC88F00007BA2 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188F3BD6172CC88F00007BA2 /* SenTestingKit.framework */; };
+		188F3BD8172CC88F00007BA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188F3BB2172CC88F00007BA2 /* UIKit.framework */; };
+		188F3BE1172CC88F00007BA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 188F3BDF172CC88F00007BA2 /* InfoPlist.strings */; };
+		188F3BE4172CC88F00007BA2 /* iCarRestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188F3BE3172CC88F00007BA2 /* iCarRestTests.m */; };
+		188F3BF0172CC95000007BA2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188F3BEF172CC95000007BA2 /* CoreLocation.framework */; };
+		188F3BF2172CC97200007BA2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188F3BF1172CC97200007BA2 /* QuartzCore.framework */; };
+		188F3C14172CCE0200007BA2 /* libbaidumapapi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 188F3C12172CCE0200007BA2 /* libbaidumapapi.a */; };
+		188F3C15172CCE0200007BA2 /* mapapi.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 188F3C13172CCE0200007BA2 /* mapapi.bundle */; };
+		188F3C20172CD33300007BA2 /* CRBaiduMapManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 188F3C1F172CD33300007BA2 /* CRBaiduMapManager.mm */; };
+		9D8625253DB0418485C772C9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F63EE1A11334738BA9CF3A6 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		188F3BDA172CC88F00007BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188F3BA7172CC88F00007BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188F3BAE172CC88F00007BA2;
+			remoteInfo = iCarRest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E9284CA07404EDF96CEE77B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		1815AF4D172CF726009EE3E3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		188F3BAF172CC88F00007BA2 /* iCarRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCarRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188F3BB2172CC88F00007BA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		188F3BB6172CC88F00007BA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		188F3BBA172CC88F00007BA2 /* iCarRest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCarRest-Info.plist"; sourceTree = "<group>"; };
+		188F3BBC172CC88F00007BA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		188F3BBE172CC88F00007BA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188F3BC0172CC88F00007BA2 /* iCarRest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCarRest-Prefix.pch"; sourceTree = "<group>"; };
+		188F3BC1172CC88F00007BA2 /* CRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CRAppDelegate.h; path = ../../../../CRAppDelegate.h; sourceTree = "<group>"; };
+		188F3BC2172CC88F00007BA2 /* CRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CRAppDelegate.m; path = ../../../CRAppDelegate.m; sourceTree = "<group>"; };
+		188F3BC4172CC88F00007BA2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		188F3BC6172CC88F00007BA2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		188F3BC8172CC88F00007BA2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		188F3BCB172CC88F00007BA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		188F3BCD172CC88F00007BA2 /* CRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CRViewController.h; path = ../../../../CRViewController.h; sourceTree = "<group>"; };
+		188F3BCE172CC88F00007BA2 /* CRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CRViewController.m; path = ../../../CRViewController.m; sourceTree = "<group>"; };
+		188F3BD5172CC88F00007BA2 /* iCarRestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCarRestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		188F3BD6172CC88F00007BA2 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		188F3BDE172CC88F00007BA2 /* iCarRestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCarRestTests-Info.plist"; sourceTree = "<group>"; };
+		188F3BE0172CC88F00007BA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		188F3BE2172CC88F00007BA2 /* iCarRestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iCarRestTests.h; sourceTree = "<group>"; };
+		188F3BE3172CC88F00007BA2 /* iCarRestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iCarRestTests.m; sourceTree = "<group>"; };
+		188F3BEF172CC95000007BA2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		188F3BF1172CC97200007BA2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		188F3BF5172CCE0200007BA2 /* BMapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMapKit.h; sourceTree = "<group>"; };
+		188F3BF6172CCE0200007BA2 /* BMKAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKAnnotation.h; sourceTree = "<group>"; };
+		188F3BF7172CCE0200007BA2 /* BMKAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKAnnotationView.h; sourceTree = "<group>"; };
+		188F3BF8172CCE0200007BA2 /* BMKCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKCircle.h; sourceTree = "<group>"; };
+		188F3BF9172CCE0200007BA2 /* BMKCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKCircleView.h; sourceTree = "<group>"; };
+		188F3BFA172CCE0200007BA2 /* BMKGeneralDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKGeneralDelegate.h; sourceTree = "<group>"; };
+		188F3BFB172CCE0200007BA2 /* BMKGeocodeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKGeocodeType.h; sourceTree = "<group>"; };
+		188F3BFC172CCE0200007BA2 /* BMKGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKGeometry.h; sourceTree = "<group>"; };
+		188F3BFD172CCE0200007BA2 /* BMKMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKMapManager.h; sourceTree = "<group>"; };
+		188F3BFE172CCE0200007BA2 /* BMKMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKMapView.h; sourceTree = "<group>"; };
+		188F3BFF172CCE0200007BA2 /* BMKMultiPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKMultiPoint.h; sourceTree = "<group>"; };
+		188F3C00172CCE0200007BA2 /* BMKOfflineMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKOfflineMap.h; sourceTree = "<group>"; };
+		188F3C01172CCE0200007BA2 /* BMKOfflineMapType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKOfflineMapType.h; sourceTree = "<group>"; };
+		188F3C02172CCE0200007BA2 /* BMKOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKOverlay.h; sourceTree = "<group>"; };
+		188F3C03172CCE0200007BA2 /* BMKOverlayPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKOverlayPathView.h; sourceTree = "<group>"; };
+		188F3C04172CCE0200007BA2 /* BMKOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKOverlayView.h; sourceTree = "<group>"; };
+		188F3C05172CCE0200007BA2 /* BMKPinAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKPinAnnotationView.h; sourceTree = "<group>"; };
+		188F3C06172CCE0200007BA2 /* BMKPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKPointAnnotation.h; sourceTree = "<group>"; };
+		188F3C07172CCE0200007BA2 /* BMKPoiSearchType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKPoiSearchType.h; sourceTree = "<group>"; };
+		188F3C08172CCE0200007BA2 /* BMKPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKPolygon.h; sourceTree = "<group>"; };
+		188F3C09172CCE0200007BA2 /* BMKPolygonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKPolygonView.h; sourceTree = "<group>"; };
+		188F3C0A172CCE0200007BA2 /* BMKPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKPolyline.h; sourceTree = "<group>"; };
+		188F3C0B172CCE0200007BA2 /* BMKPolylineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKPolylineView.h; sourceTree = "<group>"; };
+		188F3C0C172CCE0200007BA2 /* BMKRouteSearchType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKRouteSearchType.h; sourceTree = "<group>"; };
+		188F3C0D172CCE0200007BA2 /* BMKSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKSearch.h; sourceTree = "<group>"; };
+		188F3C0E172CCE0200007BA2 /* BMKShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKShape.h; sourceTree = "<group>"; };
+		188F3C0F172CCE0200007BA2 /* BMKTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKTypes.h; sourceTree = "<group>"; };
+		188F3C10172CCE0200007BA2 /* BMKUserLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKUserLocation.h; sourceTree = "<group>"; };
+		188F3C11172CCE0200007BA2 /* BMKVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMKVersion.h; sourceTree = "<group>"; };
+		188F3C12172CCE0200007BA2 /* libbaidumapapi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbaidumapapi.a; sourceTree = "<group>"; };
+		188F3C13172CCE0200007BA2 /* mapapi.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = mapapi.bundle; sourceTree = "<group>"; };
+		188F3C1E172CD33300007BA2 /* CRBaiduMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRBaiduMapManager.h; path = ../CRBaiduMapManager.h; sourceTree = "<group>"; };
+		188F3C1F172CD33300007BA2 /* CRBaiduMapManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CRBaiduMapManager.mm; sourceTree = "<group>"; };
+		6F63EE1A11334738BA9CF3A6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188F3BAC172CC88F00007BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188F3BF2172CC97200007BA2 /* QuartzCore.framework in Frameworks */,
+				188F3BF0172CC95000007BA2 /* CoreLocation.framework in Frameworks */,
+				188F3BB3172CC88F00007BA2 /* UIKit.framework in Frameworks */,
+				188F3BB7172CC88F00007BA2 /* CoreGraphics.framework in Frameworks */,
+				188F3C14172CCE0200007BA2 /* libbaidumapapi.a in Frameworks */,
+				9D8625253DB0418485C772C9 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188F3BD1172CC88F00007BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188F3BD7172CC88F00007BA2 /* SenTestingKit.framework in Frameworks */,
+				188F3BD8172CC88F00007BA2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188F3BA6172CC88F00007BA2 = {
+			isa = PBXGroup;
+			children = (
+				1815AF4D172CF726009EE3E3 /* icon.png */,
+				188F3BB8172CC88F00007BA2 /* iCarRest */,
+				188F3BDC172CC88F00007BA2 /* iCarRestTests */,
+				188F3BB1172CC88F00007BA2 /* Frameworks */,
+				188F3BB0172CC88F00007BA2 /* Products */,
+				0E9284CA07404EDF96CEE77B /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		188F3BB0172CC88F00007BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188F3BAF172CC88F00007BA2 /* iCarRest.app */,
+				188F3BD5172CC88F00007BA2 /* iCarRestTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188F3BB1172CC88F00007BA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				188F3BF1172CC97200007BA2 /* QuartzCore.framework */,
+				188F3BEF172CC95000007BA2 /* CoreLocation.framework */,
+				188F3BB2172CC88F00007BA2 /* UIKit.framework */,
+				188F3BB6172CC88F00007BA2 /* CoreGraphics.framework */,
+				188F3BD6172CC88F00007BA2 /* SenTestingKit.framework */,
+				6F63EE1A11334738BA9CF3A6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		188F3BB8172CC88F00007BA2 /* iCarRest */ = {
+			isa = PBXGroup;
+			children = (
+				188F3C17172CCFBB00007BA2 /* app */,
+				188F3BF3172CC9F600007BA2 /* vendors */,
+				188F3BCA172CC88F00007BA2 /* MainStoryboard.storyboard */,
+				188F3BB9172CC88F00007BA2 /* Supporting Files */,
+			);
+			path = iCarRest;
+			sourceTree = "<group>";
+		};
+		188F3BB9172CC88F00007BA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188F3BBA172CC88F00007BA2 /* iCarRest-Info.plist */,
+				188F3BBB172CC88F00007BA2 /* InfoPlist.strings */,
+				188F3BBE172CC88F00007BA2 /* main.m */,
+				188F3BC0172CC88F00007BA2 /* iCarRest-Prefix.pch */,
+				188F3BC4172CC88F00007BA2 /* Default.png */,
+				188F3BC6172CC88F00007BA2 /* Default@2x.png */,
+				188F3BC8172CC88F00007BA2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		188F3BDC172CC88F00007BA2 /* iCarRestTests */ = {
+			isa = PBXGroup;
+			children = (
+				188F3BE2172CC88F00007BA2 /* iCarRestTests.h */,
+				188F3BE3172CC88F00007BA2 /* iCarRestTests.m */,
+				188F3BDD172CC88F00007BA2 /* Supporting Files */,
+			);
+			path = iCarRestTests;
+			sourceTree = "<group>";
+		};
+		188F3BDD172CC88F00007BA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188F3BDE172CC88F00007BA2 /* iCarRestTests-Info.plist */,
+				188F3BDF172CC88F00007BA2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		188F3BF3172CC9F600007BA2 /* vendors */ = {
+			isa = PBXGroup;
+			children = (
+				188F3BF4172CCE0200007BA2 /* baidumap */,
+			);
+			path = vendors;
+			sourceTree = "<group>";
+		};
+		188F3BF4172CCE0200007BA2 /* baidumap */ = {
+			isa = PBXGroup;
+			children = (
+				188F3BF5172CCE0200007BA2 /* BMapKit.h */,
+				188F3BF6172CCE0200007BA2 /* BMKAnnotation.h */,
+				188F3BF7172CCE0200007BA2 /* BMKAnnotationView.h */,
+				188F3BF8172CCE0200007BA2 /* BMKCircle.h */,
+				188F3BF9172CCE0200007BA2 /* BMKCircleView.h */,
+				188F3BFA172CCE0200007BA2 /* BMKGeneralDelegate.h */,
+				188F3BFB172CCE0200007BA2 /* BMKGeocodeType.h */,
+				188F3BFC172CCE0200007BA2 /* BMKGeometry.h */,
+				188F3BFD172CCE0200007BA2 /* BMKMapManager.h */,
+				188F3BFE172CCE0200007BA2 /* BMKMapView.h */,
+				188F3BFF172CCE0200007BA2 /* BMKMultiPoint.h */,
+				188F3C00172CCE0200007BA2 /* BMKOfflineMap.h */,
+				188F3C01172CCE0200007BA2 /* BMKOfflineMapType.h */,
+				188F3C02172CCE0200007BA2 /* BMKOverlay.h */,
+				188F3C03172CCE0200007BA2 /* BMKOverlayPathView.h */,
+				188F3C04172CCE0200007BA2 /* BMKOverlayView.h */,
+				188F3C05172CCE0200007BA2 /* BMKPinAnnotationView.h */,
+				188F3C06172CCE0200007BA2 /* BMKPointAnnotation.h */,
+				188F3C07172CCE0200007BA2 /* BMKPoiSearchType.h */,
+				188F3C08172CCE0200007BA2 /* BMKPolygon.h */,
+				188F3C09172CCE0200007BA2 /* BMKPolygonView.h */,
+				188F3C0A172CCE0200007BA2 /* BMKPolyline.h */,
+				188F3C0B172CCE0200007BA2 /* BMKPolylineView.h */,
+				188F3C0C172CCE0200007BA2 /* BMKRouteSearchType.h */,
+				188F3C0D172CCE0200007BA2 /* BMKSearch.h */,
+				188F3C0E172CCE0200007BA2 /* BMKShape.h */,
+				188F3C0F172CCE0200007BA2 /* BMKTypes.h */,
+				188F3C10172CCE0200007BA2 /* BMKUserLocation.h */,
+				188F3C11172CCE0200007BA2 /* BMKVersion.h */,
+				188F3C12172CCE0200007BA2 /* libbaidumapapi.a */,
+				188F3C13172CCE0200007BA2 /* mapapi.bundle */,
+			);
+			path = baidumap;
+			sourceTree = "<group>";
+		};
+		188F3C17172CCFBB00007BA2 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				188F3C1D172CD2EC00007BA2 /* helpers */,
+				188F3C18172CD02B00007BA2 /* controllers */,
+				188F3C19172CD02B00007BA2 /* models */,
+				188F3C1A172CD02B00007BA2 /* views */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		188F3C18172CD02B00007BA2 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				188F3C1B172CD17900007BA2 /* root_view_controllers */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		188F3C19172CD02B00007BA2 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		188F3C1A172CD02B00007BA2 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		188F3C1B172CD17900007BA2 /* root_view_controllers */ = {
+			isa = PBXGroup;
+			children = (
+				188F3C1C172CD21000007BA2 /* headers */,
+				188F3BCE172CC88F00007BA2 /* CRViewController.m */,
+				188F3BC2172CC88F00007BA2 /* CRAppDelegate.m */,
+			);
+			path = root_view_controllers;
+			sourceTree = "<group>";
+		};
+		188F3C1C172CD21000007BA2 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				188F3BCD172CC88F00007BA2 /* CRViewController.h */,
+				188F3BC1172CC88F00007BA2 /* CRAppDelegate.h */,
+			);
+			path = headers;
+			sourceTree = "<group>";
+		};
+		188F3C1D172CD2EC00007BA2 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				188F3C21172CD35100007BA2 /* header */,
+				188F3C1F172CD33300007BA2 /* CRBaiduMapManager.mm */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		188F3C21172CD35100007BA2 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				188F3C1E172CD33300007BA2 /* CRBaiduMapManager.h */,
+			);
+			path = header;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188F3BAE172CC88F00007BA2 /* iCarRest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188F3BE7172CC88F00007BA2 /* Build configuration list for PBXNativeTarget "iCarRest" */;
+			buildPhases = (
+				B0E1080B6E284B1691C86E87 /* Check Pods Manifest.lock */,
+				188F3BAB172CC88F00007BA2 /* Sources */,
+				188F3BAC172CC88F00007BA2 /* Frameworks */,
+				188F3BAD172CC88F00007BA2 /* Resources */,
+				8679D4BF449F47B7B5566024 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCarRest;
+			productName = iCarRest;
+			productReference = 188F3BAF172CC88F00007BA2 /* iCarRest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		188F3BD4172CC88F00007BA2 /* iCarRestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188F3BEA172CC88F00007BA2 /* Build configuration list for PBXNativeTarget "iCarRestTests" */;
+			buildPhases = (
+				188F3BD0172CC88F00007BA2 /* Sources */,
+				188F3BD1172CC88F00007BA2 /* Frameworks */,
+				188F3BD2172CC88F00007BA2 /* Resources */,
+				188F3BD3172CC88F00007BA2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188F3BDB172CC88F00007BA2 /* PBXTargetDependency */,
+			);
+			name = iCarRestTests;
+			productName = iCarRestTests;
+			productReference = 188F3BD5172CC88F00007BA2 /* iCarRestTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188F3BA7172CC88F00007BA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = 365icar;
+			};
+			buildConfigurationList = 188F3BAA172CC88F00007BA2 /* Build configuration list for PBXProject "iCarRest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 188F3BA6172CC88F00007BA2;
+			productRefGroup = 188F3BB0172CC88F00007BA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188F3BAE172CC88F00007BA2 /* iCarRest */,
+				188F3BD4172CC88F00007BA2 /* iCarRestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188F3BAD172CC88F00007BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188F3BBD172CC88F00007BA2 /* InfoPlist.strings in Resources */,
+				188F3BC5172CC88F00007BA2 /* Default.png in Resources */,
+				188F3BC7172CC88F00007BA2 /* Default@2x.png in Resources */,
+				188F3BC9172CC88F00007BA2 /* Default-568h@2x.png in Resources */,
+				188F3BCC172CC88F00007BA2 /* MainStoryboard.storyboard in Resources */,
+				188F3C15172CCE0200007BA2 /* mapapi.bundle in Resources */,
+				1815AF4E172CF726009EE3E3 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188F3BD2172CC88F00007BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188F3BE1172CC88F00007BA2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		188F3BD3172CC88F00007BA2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		8679D4BF449F47B7B5566024 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		B0E1080B6E284B1691C86E87 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sanbox is not in sync with the Podfile.lock. Run 'pod install'.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188F3BAB172CC88F00007BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188F3BBF172CC88F00007BA2 /* main.m in Sources */,
+				188F3BC3172CC88F00007BA2 /* CRAppDelegate.m in Sources */,
+				188F3BCF172CC88F00007BA2 /* CRViewController.m in Sources */,
+				188F3C20172CD33300007BA2 /* CRBaiduMapManager.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188F3BD0172CC88F00007BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188F3BE4172CC88F00007BA2 /* iCarRestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		188F3BDB172CC88F00007BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188F3BAE172CC88F00007BA2 /* iCarRest */;
+			targetProxy = 188F3BDA172CC88F00007BA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		188F3BBB172CC88F00007BA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188F3BBC172CC88F00007BA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		188F3BCA172CC88F00007BA2 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188F3BCB172CC88F00007BA2 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		188F3BDF172CC88F00007BA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188F3BE0172CC88F00007BA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188F3BE5172CC88F00007BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		188F3BE6172CC88F00007BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188F3BE8172CC88F00007BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E9284CA07404EDF96CEE77B /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCarRest/iCarRest-Prefix.pch";
+				INFOPLIST_FILE = "iCarRest/iCarRest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/iCarRest/vendors/baidumap\"",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		188F3BE9172CC88F00007BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E9284CA07404EDF96CEE77B /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCarRest/iCarRest-Prefix.pch";
+				INFOPLIST_FILE = "iCarRest/iCarRest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/iCarRest/vendors/baidumap\"",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		188F3BEB172CC88F00007BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iCarRest.app/iCarRest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCarRest/iCarRest-Prefix.pch";
+				INFOPLIST_FILE = "iCarRestTests/iCarRestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		188F3BEC172CC88F00007BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iCarRest.app/iCarRest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCarRest/iCarRest-Prefix.pch";
+				INFOPLIST_FILE = "iCarRestTests/iCarRestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188F3BAA172CC88F00007BA2 /* Build configuration list for PBXProject "iCarRest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188F3BE5172CC88F00007BA2 /* Debug */,
+				188F3BE6172CC88F00007BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188F3BE7172CC88F00007BA2 /* Build configuration list for PBXNativeTarget "iCarRest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188F3BE8172CC88F00007BA2 /* Debug */,
+				188F3BE9172CC88F00007BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188F3BEA172CC88F00007BA2 /* Build configuration list for PBXNativeTarget "iCarRestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188F3BEB172CC88F00007BA2 /* Debug */,
+				188F3BEC172CC88F00007BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188F3BA7172CC88F00007BA2 /* Project object */;
+}
