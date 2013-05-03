@@ -9,8 +9,27 @@
 #endif
 
 #ifdef __OBJC__
-	#import <UIKit/UIKit.h>
-	#import <Foundation/Foundation.h>
-	#import<RestKit/RestKit.h>
-	
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import <QuartzCore/QuartzCore.h>
+#import <CoreLocation/CoreLocation.h>
 #endif
+//
+// ensure that RestKit and AFNetworking enable support for reachability and MIME type inference.
+//
+#if __IPHONE_OS_VERSION_MIN_REQUIRED
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#else
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <CoreServices/CoreServices.h>
+#endif
+//
+// Make RestKit globally available
+//
+#import<RestKit/RestKit.h>
+// 一些自定义的工具
+#import "UIImageView+ImageUtil.h"
+#import "CRGenericCell.h"
+#import "CoreDataTableViewController.h"

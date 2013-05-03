@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface CRAppDelegate : UIResponder <UIApplicationDelegate>
-
 @property (strong, nonatomic) UIWindow *window;
-
+- (void) theme; // 全局样式
 @end
